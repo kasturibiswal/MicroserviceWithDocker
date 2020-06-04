@@ -1,0 +1,2 @@
+spring.application.name=currency-conversion-factor-service
+spring.cloud.config.uri=http://192.168.99.102:8086

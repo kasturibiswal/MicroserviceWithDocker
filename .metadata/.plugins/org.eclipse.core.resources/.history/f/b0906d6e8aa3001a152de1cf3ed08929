@@ -1,0 +1,8 @@
+spring.application.name=zuul-gateway-server
+server.port=8765
+#eureka.client.service-url.defaultZone=http://localhost:8090/eureka
+
+spring.rabbitmq.host=34.68.237.224
+spring.rabbitmq.port=5672
+spring.rabbitmq.username=rabbit
+spring.rabbitmq.password=rabbit

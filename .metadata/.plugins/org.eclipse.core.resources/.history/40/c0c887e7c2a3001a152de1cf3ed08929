@@ -1,0 +1,18 @@
+spring.application.name=currency-convfactor-service
+server.port=8000
+#spring.jpa.show-sql=true
+#spring.h2.console.enabled=true
+#spring.datasource.platform=h2
+#spring.datasource.url=jdbc:h2:mem:testdb
+#spring.datasource.username=sa
+#spring.datasource.password=
+#spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
+# Custom H2 Console URL
+#spring.h2.console.path=/h2
+eureka.client.serviceUrl.defaultZone=http://localhost:8090/eureka
+#logging.file.name=c:/temp/application.log
+logging.level.org.springframework=ERROR 
+logging.level.com.currency=DEBUG
+
+
+

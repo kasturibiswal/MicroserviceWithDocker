@@ -1,0 +1,15 @@
+server:
+  port: 8081
+  
+spring:
+  cloud:
+    gateway:
+      routes:
+      - id: currencyfactorModule
+        uri: http://localhost:8005/
+        predicates:
+        - Path=/employee/**
+      - id: currencyModule
+        uri: http://localhost:8006/
+        predicates:
+        - Path=/consumer/**

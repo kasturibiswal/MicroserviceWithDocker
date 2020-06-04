@@ -1,0 +1,7 @@
+spring.application.name=zuul-gateway-server
+server.port=8095
+#eureka.client.serviceUrl.defaultZone=http://localhost:8090/eureka
+zuul.routes.currency-conversion-factor-service.path=/conversionfactor/**
+zuul.routes.currency-conversion-factor-service.url=http://35.239.230.99:8000
+zuul.routes.currency-conversion-service.path=/currency/conversion/**
+zuul.routes.currency-conversion-service.url=http://35.232.132.202/:8200

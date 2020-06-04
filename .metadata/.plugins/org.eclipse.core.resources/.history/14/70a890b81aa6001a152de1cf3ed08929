@@ -1,0 +1,14 @@
+spring.application.name=currency-conversion-config
+server.port=8086
+spring.cloud.config.server.git.skip-ssl-validation = true
+management.endpoints.web.exposure.include=bus-refresh
+spring.cloud.bus.enabled=true
+spring.cloud.config.server.git.uri=https://github.com/kasturibiswal/currency-conversion-config
+spring.cloud.config.server.git.username=kasturibiswal
+spring.cloud.config.server.git.password=@kasamb1g
+spring.rabbitmq.host=34.72.94.240:
+spring.rabbitmq.port=5672
+spring.rabbitmq.username=rabbit
+spring.rabbitmq.password=rabbit
+
+#spring.profiles=config-monitor

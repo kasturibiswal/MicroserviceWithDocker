@@ -1,0 +1,5 @@
+package com.currency.config;
+
+public class TestConfigController {
+
+}

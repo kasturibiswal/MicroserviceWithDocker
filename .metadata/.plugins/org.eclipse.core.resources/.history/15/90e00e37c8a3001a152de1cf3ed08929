@@ -1,0 +1,6 @@
+spring.application.name=currency-conversion-factor-service
+#spring.cloud.config.uri=http://35.192.112.61:8086
+spring.rabbitmq.host=34.68.237.224
+spring.rabbitmq.port=5672
+spring.rabbitmq.username=rabbit
+spring.rabbitmq.password=rabbit
